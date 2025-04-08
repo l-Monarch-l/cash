@@ -15,6 +15,9 @@ Frontend: HTML, Bootstrap 5
    переходим в приложение
 
    cd cash-flow-app
-3. Собираем docker
+   
+2. Собираем docker
+   
    docker-compose up --build
-   переходим по ссылку и проверяем работу http://localhost:8000/dds/
+   
+   переходим по ссылке и проверяем работу http://localhost:8000/dds/
