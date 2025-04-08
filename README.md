@@ -14,17 +14,17 @@ Frontend: HTML, Bootstrap 5
 Инстркуция по запуску:
 1. Клонирование репозитория
    
-   git clone https://github.com/l-Monarch-l/cash
+   ```git clone https://github.com/l-Monarch-l/cash```
    
    переходим в приложение
 
-   cd cash-flow-app
+   ```cd cash-flow-app```
    
 2. Собираем docker
    
-   docker-compose up --build
+   ```docker-compose up --build```
    
-   переходим по ссылке и проверяем работу http://localhost:8000/dds/
+   переходим по ссылке и проверяем работу ```http://localhost:8000/dds/```
 
 
 Важные команды
