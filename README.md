@@ -1,10 +1,15 @@
 Это веб-приложение для учета движения денежных средств (ДДС)
 
 Использовалось:
+
 Backend: Django (Python)
+
 Frontend: HTML, Bootstrap 5
+
 База данных: PostgreSQL (в Docker)
+
 Инфраструктура: Docker, Docker Composeб
+
 Также работа выполнилась при помощи poetry
 
 Инстркуция по запуску:
