@@ -28,5 +28,7 @@ Frontend: HTML, Bootstrap 5
 
 
 Важные команды
-docker-compose exec web python manage.py createsuperuser	Создать админа
-poetry add package-name	Добавить зависимость
+
+```docker-compose exec web python manage.py createsuperuser``` - Создать админа
+
+```poetry add package-name```	- Добавить зависимость
