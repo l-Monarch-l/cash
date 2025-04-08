@@ -1,0 +1,37 @@
+{% extends 'dds/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title mb-0">
+            {% if object %}Редактирование категории{% else %}Добавление категории{% endif %}
+        </h4>
+    </div>
+    <div class="card-body">
+        <form method="post">
+            {% csrf_token %}
+            
+            <div class="mb-3">
+                <label class="form-label">{{ form.name.label }}</label>
+                {{ form.name }}
+                {{ form.name.errors }}
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label">{{ form.operation_type.label }}</label>
+                {{ form.operation_type }}
+                {{ form.operation_type.errors }}
+            </div>
+            
+            <div class="d-flex justify-content-between">
+                <a href="{% url 'category-list' %}" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left"></i> Назад
+                </a>
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-save"></i> Сохранить
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

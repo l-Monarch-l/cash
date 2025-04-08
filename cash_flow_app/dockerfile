@@ -1,0 +1,26 @@
+# Базовый образ
+FROM python:3.13-slim
+
+# Установка зависимостей для PostgreSQL
+RUN apt-get update && apt-get install -y \
+    libpq-dev \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Рабочая директория
+WORKDIR /app
+
+# Копируем зависимости
+COPY pyproject.toml poetry.lock* ./
+
+# Устанавливаем Poetry
+RUN pip install --upgrade pip && \
+    pip install poetry && \
+    poetry config virtualenvs.create false && \
+    poetry install --no-root --no-interaction
+
+# Копируем весь проект
+COPY . .
+
+# Команда для запуска
+CMD ["poetry", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
