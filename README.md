@@ -8,9 +8,7 @@ Frontend: HTML, Bootstrap 5
 
 База данных: PostgreSQL (в Docker)
 
-Инфраструктура: Docker, Docker Composeб
-
-Также работа выполнилась при помощи poetry
+Инфраструктура: Docker, Docker Compose, poetry
 
 
 Инстркуция по запуску:
@@ -27,3 +25,8 @@ Frontend: HTML, Bootstrap 5
    docker-compose up --build
    
    переходим по ссылке и проверяем работу http://localhost:8000/dds/
+
+
+Важные команды
+docker-compose exec web python manage.py createsuperuser	Создать админа
+poetry add package-name	Добавить зависимость
