@@ -24,8 +24,6 @@ Frontend: HTML, Bootstrap 5
    
    переходим по ссылке и проверяем работу ```http://localhost:8000/dds/```
 
-Автор: l-Monarch-l
-
 Важные команды
 
 ```docker-compose exec web python manage.py createsuperuser``` - Создать админа
@@ -35,7 +33,8 @@ Frontend: HTML, Bootstrap 5
 установить все зависимости из pyproject.toml
 ```poetry install```
 
-скришноты:
+Скришноты:
+
 ![image](https://github.com/user-attachments/assets/59ff9f75-4e53-4553-b2cf-d6358c49f6af)
 
 ![image](https://github.com/user-attachments/assets/e30a57b6-a142-4082-8ba4-cc20522b8361)
@@ -46,7 +45,7 @@ Frontend: HTML, Bootstrap 5
 
 ![image](https://github.com/user-attachments/assets/a706b4f5-23ee-4662-ad0d-57cafda903f8)
 
-![image](https://github.com/user-attachments/assets/208bfcb2-baa9-4a09-9fe2-5a403ce282fe)
+![image](https://github.com/user-attachments/assets/39819a0f-cd2c-4d5d-9904-763544b7a755)
 
 
-
+Автор: l-Monarch-l
