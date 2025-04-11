@@ -34,16 +34,27 @@ Frontend: HTML, Bootstrap 5
 ```poetry install```
 
 Скришноты:
+Основная страница:
 
 ![image](https://github.com/user-attachments/assets/59ff9f75-4e53-4553-b2cf-d6358c49f6af)
 
+Справочники(в данном случае статусы):
+
 ![image](https://github.com/user-attachments/assets/e30a57b6-a142-4082-8ba4-cc20522b8361)
+
+Настройки справочников и их зависимости(в данном скриншоте настройки категории):
 
 ![{065394BE-2BA9-45D1-9625-D255ADD5524B}](https://github.com/user-attachments/assets/b9b66aac-0baf-4dbf-a916-2e7e281fe40d)
 
+добавление новой записи:
+
 ![image](https://github.com/user-attachments/assets/4d470896-f271-4f9b-9236-f5b7ac469ec6)
 
+
+Работа фильтра
 ![image](https://github.com/user-attachments/assets/a706b4f5-23ee-4662-ad0d-57cafda903f8)
+
+Ошибка при отсуствии заполненых полей:
 
 ![image](https://github.com/user-attachments/assets/39819a0f-cd2c-4d5d-9904-763544b7a755)
 
